@@ -1,0 +1,93 @@
+/*
+ * Copyright (c) 2009 Apple Inc. All rights reserved.
+ *
+ * @APPLE_LICENSE_HEADER_START@
+ * 
+ * This file contains Original Code and/or Modifications of Original Code
+ * as defined in and that are subject to the Apple Public Source License
+ * Version 2.0 (the 'License'). You may not use this file except in
+ * compliance with the License. Please obtain a copy of the License at
+ * http://www.opensource.apple.com/apsl/ and read it before using this
+ * file.
+ * 
+ * The Original Code and all software distributed under the License are
+ * distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
+ * EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES,
+ * INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.
+ * Please see the License for the specific language governing rights and
+ * limitations under the License.
+ * 
+ * @APPLE_LICENSE_HEADER_END@
+ */
+
+#ifndef _CAPTIVENETWORK_H
+#define _CAPTIVENETWORK_H
+
+#include <Availability.h>
+#include <sys/cdefs.h>
+#include <CoreFoundation/CoreFoundation.h>
+
+/*!
+	@header CaptiveNetwork
+	@discussion The CaptiveNetwork API allows applications to interact
+		with Captive Network Support. Captive Network Support is a
+		system component responsible for detecting and help users
+		navigate networks that require interaction before providing
+		internet access. The most common Captive Networks are WiFi
+		Hotspots in places like airports, restaurants, and hotels.
+		Captive Network Support will attempt to authenticate if
+		possible or drop a user in to a web sheet if authentication
+		is not possible. In the web sheet the user has an opportunity
+		to authenticate or disassociate from the network.
+
+		The following APIs are designed for third party applications
+		that may handle authentication on these networks on behalf of
+		the user.
+
+		These APIs are treated as advisory only.
+		There is no guarantee or contract that the operating system
+		will take the intended action.
+ */
+
+__BEGIN_DECLS
+
+/*!
+	@function CNSetSupportedSSIDs
+	@discussion Provides Captive Network Support with an updated list of
+		SSIDs that this application will perform authentication on.
+		When Captive Network Support would show the Web Sheet for a
+		network with an SSID the application has registered for, it
+		will suppress showing the Web Sheet if the application is
+		still installed.
+	@param ssidArray A CFArray of CFStrings of the SSIDs.
+	@result Returns TRUE if the operation succeeded, FALSE otherwise.
+ */
+Boolean
+CNSetSupportedSSIDs	(CFArrayRef	ssidArray)		__OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+
+/*!
+	@function CNMarkPortalOnline
+	@discussion Tells Captive Network Support that your application has
+		authenticated the device to the network. Captive Network Support
+		will notify the rest of the system that WiFi is now a viable
+		interface.
+	@param interfaceName Name of the interface that is now online.
+	@result Returns TRUE if the operation succeeded, FALSE otherwise.
+ */
+Boolean
+CNMarkPortalOnline	(CFStringRef	interfaceName)		__OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+
+/*!
+	@function CNMarkPortalOffline
+	@discussion Tells Captive Network Support that the device is not
+		authenticated on the given network interface.
+	@param interfaceName Name of the interface that is still captive.
+	@result Returns TRUE if the operation succeeded, FALSE otherwise.
+ */
+Boolean
+CNMarkPortalOffline	(CFStringRef	interfaceName)		__OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+
+__END_DECLS
+
+#endif	/* _CAPTIVENETWORK_H */

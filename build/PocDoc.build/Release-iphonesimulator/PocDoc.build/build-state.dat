@@ -1,0 +1,950 @@
+TPocDoc
+v7
+r0
+t298606619.333113
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/Info.plist" PocDoc-Info.plist
+cCompileXIB "/Users/Atrain/Documents/Electrical Engineering/PocDoc/FlipsideView.xib"
+cCompileXIB "/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainView.xib"
+cCompileXIB "/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainWindow.xib"
+cCpResource build/Release-iphonesimulator/PocDoc.app/SumWave.wav SumWave.wav
+cCpResource build/Release-iphonesimulator/PocDoc.app/icon.png icon.png
+cProcessPCH /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch.gch PocDoc_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch.pth PocDoc_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/main.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/PocDocAppDelegate.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/MainViewController.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/FlipsideViewController.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/AnalyzeAudio.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m"
+cAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m"
+cAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m"
+cAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m"
+cAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m"
+cLd "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc" normal i386
+cGenerateDSYMFile "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app.dSYM" "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc"
+cTouch "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C0D9EF80000000000000132
+t1275961080
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C01F5AA000000000000065C
+t1275196842
+s1628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004AD4F4D80000000000006500
+t1255470296
+s25856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.h
+c000000004A11A0E6000000000000022A
+t1242669286
+s554
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B7600000000001C8900
+t1275018102
+s1870080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B620000000000000A23
+t1275018082
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.h
+c000000004C1C23B30000000000000860
+t1276912563
+s2144
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVFoundation.h>
+i<Accelerate/Accelerate.h>
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m
+c000000004C1C31E50000000000004729
+t1276916197
+s18217
+i"AnalyzeAudio.h"
+i"MainViewController.h"
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.h
+c000000004C1A73E6000000000000034C
+t1276802022
+s844
+i<UIKit/UIKit.h>
+i"CorePlot-cocoaTouch.h"
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m
+c000000004C1C21C000000000000010FC
+t1276912064
+s4348
+i"FlipsideViewController.h"
+i"AnalyzeAudio.h"
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.h
+c000000004C1A4ACC0000000000000287
+t1276791500
+s647
+i"FlipsideViewController.h"
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m
+c000000004C1C289A000000000000098D
+t1276913818
+s2445
+i"MainViewController.h"
+i"AnalyzeAudio.h"
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.h
+c000000004C1A3FA200000000000001DC
+t1276788642
+s476
+i<UIKit/UIKit.h>
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m
+c000000004C1A3FA20000000000000A98
+t1276788642
+s2712
+i"PocDocAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/FlipsideView.xib
+c000000004C1A6F2C0000000000005433
+t1276800812
+s21555
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainView.xib
+c000000004C1A72A5000000000000694B
+t1276801701
+s26955
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainWindow.xib
+c000000004C1A3FA20000000000005094
+t1276788642
+s20628
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/PocDoc_Prefix.pch
+c000000004C1A3FA2000000000000013E
+t1276788642
+s318
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/SumWave.wav
+c000000004C0FC72400000000000158B4
+t1276102436
+s88244
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/AnalyzeAudio.o
+t1276912564
+s67892
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/FlipsideViewController.o
+t1276912563
+s22180
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/MainViewController.o
+t1276913819
+s41612
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/PocDoc.LinkFileList
+c000000004C1C208100000000000002E2
+t1276911745
+s738
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/PocDocAppDelegate.o
+t1276911748
+s41148
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/main.o
+t1276911748
+s2616
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/AnalyzeAudio.plist
+t1276912564
+s276
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/FlipsideViewController.plist
+t1276912564
+s276
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/MainViewController.plist
+t1276913819
+s276
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/PocDocAppDelegate.plist
+t1276911748
+s276
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/main.plist
+t1276911748
+s276
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app
+t1276913819
+s340
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app.dSYM
+t1276913819
+s102
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/FlipsideView.nib
+t1276911746
+s1360
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/Info.plist
+t1276911745
+s587
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/MainView.nib
+t1276911746
+s2320
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/MainWindow.nib
+t1276911746
+s1148
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PkgInfo
+t1276911745
+s8
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc
+t1276913819
+s533316
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/SumWave.wav
+t1276911746
+s88244
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/icon.png
+t1276911746
+s2207
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/icon.png
+c000000004C0C5DC3000000000000089F
+t1275878851
+s2207
+
+N/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m
+c000000004C1A3FA20000000000000169
+t1276788642
+s361
+i<UIKit/UIKit.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/CorePlot-CocoaTouch.h
+c000000004C192E5E0000000000000722
+t1276718686
+s1826
+i"Source/CPAnimation.h"
+i"Source/CPAnimationKeyFrame.h"
+i"Source/CPAnimationTransition.h"
+i"Source/CPAxis.h"
+i"Source/CPAxisLabel.h"
+i"Source/CPAxisLabelGroup.h"
+i"Source/CPAxisSet.h"
+i"Source/CPAxisTitle.h"
+i"Source/CPBarPlot.h"
+i"Source/CPBorderedLayer.h"
+i"Source/CPColor.h"
+i"Source/CPColorSpace.h"
+i"Source/CPConstrainedPosition.h"
+i"Source/CPDarkGradientTheme.h"
+i"Source/CPDefinitions.h"
+i"Source/CPExceptions.h"
+i"Source/CPFill.h"
+i"Source/CPGradient.h"
+i"Source/CPGraph.h"
+i"Source/CPGridLines.h"
+i"Source/CPImage.h"
+i"Source/CPLayer.h"
+i"iPhoneOnly/CPLayerHostingView.h"
+i"Source/CPLayoutManager.h"
+i"Source/CPLineStyle.h"
+i"Source/CPPieChart.h"
+i"Source/CPPlainBlackTheme.h"
+i"Source/CPPlainWhiteTheme.h"
+i"iPhoneOnly/CPPlatformSpecificDefines.h"
+i"iPhoneOnly/CPPlatformSpecificFunctions.h"
+i"iPhoneOnly/CPPlatformSpecificCategories.h"
+i"Source/CPPathExtensions.h"
+i"Source/CPPlot.h"
+i"Source/CPPlotAreaFrame.h"
+i"Source/CPPlotGroup.h"
+i"Source/CPPlotRange.h"
+i"Source/CPPlotSpace.h"
+i"Source/CPPlotSymbol.h"
+i"Source/CPPolarPlotSpace.h"
+i"Source/CPResponder.h"
+i"Source/CPScatterPlot.h"
+i"Source/CPSlateTheme.h"
+i"Source/CPSlateTheme.h"
+i"Source/CPStocksTheme.h"
+i"Source/CPTextLayer.h"
+i"Source/CPTextStyle.h"
+i"Source/CPTheme.h"
+i"Source/CPTimeFormatter.h"
+i"Source/CPTradingRangePlot.h"
+i"Source/CPUtilities.h"
+i"Source/CPXYAxis.h"
+i"Source/CPXYAxisSet.h"
+i"Source/CPXYGraph.h"
+i"Source/CPXYPlotSpace.h"
+i"Source/CPXYTheme.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAnimation.h
+c000000004C192E5E000000000000054C
+t1276718686
+s1356
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAnimationKeyFrame.h
+c000000004C192E5E00000000000001B6
+t1276718686
+s438
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAnimationTransition.h
+c000000004C192E5E0000000000000461
+t1276718686
+s1121
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAxis.h
+c000000004C192E5E00000000000019A9
+t1276718686
+s6569
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAxisLabel.h
+c000000004C192E5E000000000000040B
+t1276718686
+s1035
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAxisLabelGroup.h
+c000000004C192E5E0000000000000068
+t1276718686
+s104
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAxisSet.h
+c000000004C192E5E0000000000000144
+t1276718686
+s324
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPAxisTitle.h
+c000000004C192E5E000000000000006D
+t1276718686
+s109
+i<Foundation/Foundation.h>
+i"CPAxisLabel.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPBarPlot.h
+c000000004C192E5E0000000000000B05
+t1276718686
+s2821
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPBorderedLayer.h
+c000000004C192E5E000000000000013F
+t1276718686
+s319
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPColor.h
+c000000004C192E5E0000000000000439
+t1276718686
+s1081
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPColorSpace.h
+c000000004C192E5E0000000000000141
+t1276718686
+s321
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPConstrainedPosition.h
+c000000004C192E5E00000000000002A5
+t1276718686
+s677
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPDarkGradientTheme.h
+c000000004C192E5E000000000000006F
+t1276718686
+s111
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPDefinitions.h
+c000000004C192E5E0000000000000A6C
+t1276718686
+s2668
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPExceptions.h
+c000000004C192E5E00000000000000B2
+t1276718686
+s178
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPFill.h
+c000000004C192E5E0000000000000346
+t1276718686
+s838
+i<QuartzCore/QuartzCore.h>
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPGradient.h
+c000000004C192E5E0000000000000B97
+t1276718686
+s2967
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPGraph.h
+c000000004C192E5E00000000000008A5
+t1276718686
+s2213
+i"CPBorderedLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPGridLines.h
+c000000004C192E5E000000000000010A
+t1276718686
+s266
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPImage.h
+c000000004C192E5E00000000000002AA
+t1276718686
+s682
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPLayer.h
+c000000004C192E5E000000000000087A
+t1276718686
+s2170
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i"CPResponder.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPLayoutManager.h
+c000000004C192E5E00000000000006B2
+t1276718686
+s1714
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPLineStyle.h
+c000000004C192E5E000000000000040E
+t1276718686
+s1038
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPathExtensions.h
+c000000004C192E5E00000000000000E7
+t1276718686
+s231
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPieChart.h
+c000000004C192E5E0000000000000826
+t1276718686
+s2086
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlainBlackTheme.h
+c000000004C192E5E000000000000006E
+t1276718686
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlainWhiteTheme.h
+c000000004C192E5E000000000000006E
+t1276718686
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlot.h
+c000000004C192E5E0000000000000B61
+t1276718686
+s2913
+i"CPDefinitions.h"
+i"CPPlotRange.h"
+i"CPLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlotAreaFrame.h
+c000000004C192E5E000000000000016E
+t1276718686
+s366
+i"CPBorderedLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlotGroup.h
+c000000004C192E5E0000000000000142
+t1276718686
+s322
+i"CPLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlotRange.h
+c000000004C192E5E00000000000005D0
+t1276718686
+s1488
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlotSpace.h
+c000000004C192E5E0000000000000FE7
+t1276718686
+s4071
+i"CPDefinitions.h"
+i"CPResponder.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPlotSymbol.h
+c000000004C192E5E0000000000000822
+t1276718686
+s2082
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPPolarPlotSpace.h
+c000000004C192E5E0000000000000075
+t1276718686
+s117
+i<Foundation/Foundation.h>
+i"CPPlotSpace.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPResponder.h
+c000000004C192E5E0000000000000535
+t1276718686
+s1333
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPScatterPlot.h
+c000000004C192E5E00000000000008D8
+t1276718686
+s2264
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPSlateTheme.h
+c000000004C192E5E0000000000000068
+t1276718686
+s104
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPStocksTheme.h
+c000000004C192E5E000000000000006A
+t1276718686
+s106
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPTextLayer.h
+c000000004C192E5E0000000000000224
+t1276718686
+s548
+i"CPLayer.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPTextStyle.h
+c000000004C192E5E000000000000034B
+t1276718686
+s843
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPTheme.h
+c000000004C192E5E00000000000004B0
+t1276718686
+s1200
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPTimeFormatter.h
+c000000004C192E5E0000000000000175
+t1276718686
+s373
+i<Foundation/Foundation.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPTradingRangePlot.h
+c000000004C192E5E00000000000009C4
+t1276718686
+s2500
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPUtilities.h
+c000000004C192E5E000000000000079C
+t1276718686
+s1948
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPXYAxis.h
+c000000004C192E5E000000000000020E
+t1276718686
+s526
+i<Foundation/Foundation.h>
+i"CPAxis.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPXYAxisSet.h
+c000000004C192E5E00000000000000EB
+t1276718686
+s235
+i<Foundation/Foundation.h>
+i"CPAxisSet.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPXYGraph.h
+c000000004C192E5E0000000000000154
+t1276718686
+s340
+i<Foundation/Foundation.h>
+i"CPGraph.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPXYPlotSpace.h
+c000000004C192E5E000000000000030F
+t1276718686
+s783
+i"CPPlotSpace.h"
+i"CPDefinitions.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/Source/CPXYTheme.h
+c000000004C192E5E0000000000000062
+t1276718686
+s98
+i<Foundation/Foundation.h>
+i"CPTheme.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/build/Release-iphonesimulator/libCorePlot-CocoaTouch.a
+c000000004C1C20810000000000170EC8
+t1276911745
+s1511112
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly/CPLayerHostingView.h
+c000000004C192E5E00000000000000BE
+t1276718686
+s190
+i<UIKit/UIKit.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly/CPPlatformSpecificCategories.h
+c000000004C192E5E000000000000039E
+t1276718686
+s926
+i<UIKit/UIKit.h>
+i"CPColor.h"
+i"CPLayer.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly/CPPlatformSpecificDefines.h
+c000000004C192E5E000000000000005B
+t1276718686
+s91
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly/CPPlatformSpecificFunctions.h
+c000000004C192E5E000000000000008D
+t1276718686
+s141
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch.pth
+t1276911747
+s2684720
+
+N/var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch.gch
+t1276911747
+s11480080
+
+NPocDoc-Info.plist
+c000000004C1A3FA2000000000000038D
+t1276788642
+s909
+
+CAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m"
+s298605364.460830
+e298605364.693784
+r1
+xAnalyze
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m
+lSLF07#2@76"Analyze /Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m298605364#298605364#0(0"0(0#0#68"/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m8632639296#2756"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch --analyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/AnalyzeAudio.plist"0#
+
+CAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m"
+s298605364.183262
+e298605364.460734
+r1
+xAnalyze
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m
+lSLF07#2@94"Analyze /Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m298605364#298605364#0(0"0(0#0#86"/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m8612894080#2784"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch --analyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/FlipsideViewController.plist"0#
+
+CAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m"
+s298606618.829737
+e298606619.046896
+r1
+xAnalyze
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m
+lSLF07#2@90"Analyze /Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m298606618#298606619#0(0"0(0#0#82"/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m8632246112#2776"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch --analyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/MainViewController.plist"0#
+
+CAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m"
+s298604548.521100
+e298604548.590772
+r1
+xAnalyze
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m
+lSLF07#2@89"Analyze /Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m298604548#298604548#0(0"0(0#0#81"/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m8612718688#2774"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch --analyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/PocDocAppDelegate.plist"0#
+
+CAnalyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m"
+s298604548.474062
+e298604548.521004
+r1
+xAnalyze
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m
+lSLF07#2@68"Analyze /Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m298604548#298604548#0(0"0(0#0#60"/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m8607889600#2740"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch --analyze "/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/StaticAnalyzer/normal/i386/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298606618#298606618#0(0"0(0#1#0"8631589280#0"0#
+
+CCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/AnalyzeAudio.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s298605363.925345
+e298605364.361932
+r1
+xCompileC
+xbuild/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/AnalyzeAudio.o
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@76"Compile /Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m298605363#298605364#0(0"0(0#0#68"/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m8621335904#2846"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/AnalyzeAudio.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/AnalyzeAudio.o"0#
+
+CCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/FlipsideViewController.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s298605363.482371
+e298605363.977098
+r1
+xCompileC
+xbuild/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@94"Compile /Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m298605363#298605363#0(0"0(0#0#86"/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m8620486880#2874"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/FlipsideViewController.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/FlipsideViewController.o"0#
+
+CCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/MainViewController.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s298606618.607330
+e298606619.141876
+r1
+xCompileC
+xbuild/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/MainViewController.o
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@90"Compile /Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m298606618#298606619#0(0"0(0#0#82"/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m8616266272#2866"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/MainViewController.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/MainViewController.o"0#
+
+CCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/PocDocAppDelegate.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s298604547.982759
+e298604548.137899
+r1
+xCompileC
+xbuild/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/PocDocAppDelegate.o
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@89"Compile /Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m298604547#298604548#0(0"0(0#0#81"/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m8631708320#2864"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/Classes/PocDocAppDelegate.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/PocDocAppDelegate.o"0#
+
+CCompileC build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/main.o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s298604547.981135
+e298604548.048692
+r1
+xCompileC
+xbuild/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/main.o
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@68"Compile /Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m298604547#298604548#0(0"0(0#0#60"/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m8632437152#2830"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -include /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/main.m" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Atrain/Documents/Electrical Engineering/PocDoc/FlipsideView.xib"
+s298604545.586155
+e298604546.363019
+r1
+xCompileXIB
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib298604545#298604546#0(0"0(0#0#70"/Users/Atrain/Documents/Electrical Engineering/PocDoc/FlipsideView.xib8632139904#626"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/FlipsideView.nib" "/Users/Atrain/Documents/Electrical Engineering/PocDoc/FlipsideView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainView.xib"
+s298604545.587010
+e298604546.318446
+r1
+xCompileXIB
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib298604545#298604546#0(0"0(0#0#66"/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainView.xib8631645984#618"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/MainView.nib" "/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainWindow.xib"
+s298604546.318547
+e298604546.710618
+r1
+xCompileXIB
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib298604546#298604546#0(0"0(0#0#68"/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainWindow.xib8629555104#622"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/MainWindow.nib" "/Users/Atrain/Documents/Electrical Engineering/PocDoc/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Release-iphonesimulator/PocDoc.app/SumWave.wav SumWave.wav
+s298604546.363110
+e298604546.373800
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PocDoc.app/SumWave.wav
+xSumWave.wav
+lSLF07#2@16"Copy SumWave.wav298604546#298604546#0(0"0(0#0#65"/Users/Atrain/Documents/Electrical Engineering/PocDoc/SumWave.wav8629000640#528"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Atrain/Documents/Electrical Engineering/PocDoc/SumWave.wav" "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app"0#
+
+CCpResource build/Release-iphonesimulator/PocDoc.app/icon.png icon.png
+s298604546.364213
+e298604546.373017
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PocDoc.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png298604546#298604546#0(0"0(0#0#62"/Users/Atrain/Documents/Electrical Engineering/PocDoc/icon.png8628857280#525"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Atrain/Documents/Electrical Engineering/PocDoc/icon.png" "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app"0#
+
+CGenerateDSYMFile "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app.dSYM" "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc"
+s298606619.259724
+e298606619.329955
+r1
+xGenerateDSYMFile
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app.dSYM
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc
+lSLF07#2@110"GenerateDSYMFile build/Release-iphonesimulator/PocDoc.app.dSYM build/Release-iphonesimulator/PocDoc.app/PocDoc298606619#298606619#0(0"0(0#0#101"/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc8615331584#435"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc" -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app.dSYM"0#
+
+CLd "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc" normal i386
+s298606619.141970
+e298606619.259616
+r1
+xLd
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc
+xnormal
+xi386
+lSLF07#2@106"Link /Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc298606619#298606619#0(0"0(0#0#0"8604746752#1203"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" -filelist "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/Objects-normal/i386/PocDoc.LinkFileList" -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 /Users/Atrain/Library/SDKs/core-plot/framework/build/Release-iphonesimulator/libCorePlot-CocoaTouch.a -framework Foundation -framework UIKit -framework CoreGraphics -framework Accelerate -framework QuartzCore -framework AudioToolbox -framework AVFoundation -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PocDoc"0#
+
+CProcessInfoPlistFile "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/Info.plist" PocDoc-Info.plist
+s298604545.575711
+e298604545.586047
+r1
+xProcessInfoPlistFile
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/Info.plist
+xPocDoc-Info.plist
+lSLF07#2@25"Process PocDoc-Info.plist298604545#298604545#0(0"0(0#0#71"/Users/Atrain/Documents/Electrical Engineering/PocDoc/PocDoc-Info.plist8607071520#531"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PocDoc-Info.plist -genpkginfo "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app/Info.plist"0#
+
+CProcessPCH /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch.pth PocDoc_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s298604546.711838
+e298604547.078411
+r1
+xProcessPCH
+x/var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch.pth
+xPocDoc_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@28"Precompile PocDoc_Prefix.pch298604546#298604547#0(0"0(0#0#71"/Users/Atrain/Documents/Electrical Engineering/PocDoc/PocDoc_Prefix.pch8616812768#2596"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/PocDoc_Prefix.pch" -o /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-cqpfjewlukjacugsulwuzcjbrzxc/PocDoc_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch.gch PocDoc_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s298604546.710747
+e298604547.980993
+r1
+xProcessPCH
+x/var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch.gch
+xPocDoc_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@28"Precompile PocDoc_Prefix.pch298604546#298604547#0(0"0(0#0#71"/Users/Atrain/Documents/Electrical Engineering/PocDoc/PocDoc_Prefix.pch8617127488#2704"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-generated-files.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-own-target-headers.hmap" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-all-target-headers.hmap" -iquote "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/PocDoc-project-headers.hmap" "-F/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/include" -I../../../Library/SDKs/core-plot/framework -I../../../Library/SDKs/core-plot/framework/iPhoneOnly -I../../../Library/SDKs/core-plot/framework/MacOnly -I../../../Library/SDKs/core-plot/framework/SDKBuild -I../../../Library/SDKs/core-plot/framework/Source -I../../../Library/SDKs/core-plot/framework/TestResources -I/Users/Atrain/Library/SDKs/core-plot/framework -I/Users/Atrain/Library/SDKs/core-plot/framework/iPhoneOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/MacOnly -I/Users/Atrain/Library/SDKs/core-plot/framework/SDKBuild -I. -I/Users/Atrain/Library/SDKs/core-plot/framework/TestResources "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources/i386" "-I/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/PocDoc.build/Release-iphonesimulator/PocDoc.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/PocDoc_Prefix.pch" -o /var/folders/HH/HHafICHaF44YrDA16dWVmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PocDoc_Prefix-fkicjgzbsfxiwaevkzydllqohmcm/PocDoc_Prefix.pch.gch0#
+
+CTouch "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app"
+s298606619.330315
+e298606619.333041
+r1
+xTouch
+x/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app
+lSLF07#2@100"Touch /Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app298606619#298606619#0(0"0(0#0#0"8630993664#313"    cd "/Users/Atrain/Documents/Electrical Engineering/PocDoc"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Atrain/Documents/Electrical Engineering/PocDoc/build/Release-iphonesimulator/PocDoc.app"0#
+

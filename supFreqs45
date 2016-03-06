@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<integer>1800</integer>
+	<integer>1861</integer>
+	<integer>1919</integer>
+	<integer>1977</integer>
+	<integer>2038</integer>
+	<integer>2095</integer>
+	<integer>2154</integer>
+	<integer>2214</integer>
+	<integer>2275</integer>
+	<integer>2332</integer>
+	<integer>2393</integer>
+	<integer>2451</integer>
+	<integer>2508</integer>
+	<integer>2570</integer>
+	<integer>2628</integer>
+	<integer>2685</integer>
+	<integer>2745</integer>
+	<integer>2804</integer>
+	<integer>2864</integer>
+	<integer>2922</integer>
+	<integer>2980</integer>
+	<integer>3041</integer>
+	<integer>3099</integer>
+	<integer>3157</integer>
+	<integer>3219</integer>
+	<integer>3276</integer>
+	<integer>3337</integer>
+	<integer>3393</integer>
+	<integer>3454</integer>
+	<integer>3512</integer>
+	<integer>3570</integer>
+	<integer>3632</integer>
+	<integer>3688</integer>
+	<integer>3747</integer>
+	<integer>3807</integer>
+	<integer>3867</integer>
+	<integer>3926</integer>
+	<integer>3985</integer>
+	<integer>4044</integer>
+	<integer>4104</integer>
+	<integer>4161</integer>
+	<integer>4219</integer>
+	<integer>4278</integer>
+	<integer>4338</integer>
+	<integer>4399</integer>
+</array>
+</plist>
